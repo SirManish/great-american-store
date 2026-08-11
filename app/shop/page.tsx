@@ -1,0 +1,1 @@
+import {ProductGrid} from "../../components/ProductGrid";export default function Shop(){return <main className="page"><div className="container"><label>SHOP GREAT AMERICAN STORE</label><h1>All Products</h1><p className="muted">Search, filter and compare our lighting products.</p><ProductGrid/></div></main>}

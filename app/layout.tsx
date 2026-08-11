@@ -1,0 +1,2 @@
+import type {Metadata} from "next";import "./globals.css";import {CartProvider} from "../components/CartProvider";import {Header} from "../components/Header";import {Footer} from "../components/Footer";
+export const metadata:Metadata={title:"Great American Store | Smart Lighting",description:"LED strip lights, RGB-IC neon lights and lighting accessories."};export default function Layout({children}:{children:React.ReactNode}){return <html lang="en"><body><CartProvider><Header/>{children}<Footer/></CartProvider></body></html>}

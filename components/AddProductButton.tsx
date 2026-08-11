@@ -1,0 +1,1 @@
+"use client";import {useCart} from "./CartProvider";import type {Product} from "../lib/products";export function AddProductButton({product}:{product:Product}){const{add}=useCart();return <button className="btn primary" disabled={!product.stock} onClick={()=>add(product)}>{product.stock?"Add to Cart":"Out of Stock"}</button>}
