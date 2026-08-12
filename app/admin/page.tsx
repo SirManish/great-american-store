@@ -1,1 +1,37 @@
-export default function Admin(){return <main className="page"><div className="container narrow"><label>ADMIN</label><h1>Store Dashboard</h1><p className="muted">Admin authentication and live database controls should be enabled before launch.</p><div className="adminCards"><div><b>Products</b><span>Add/edit products & stock</span></div><div><b>Orders</b><span>View and update order status</span></div><div><b>Coupons</b><span>Create discount codes</span></div><div><b>Customers</b><span>Customer and order history</span></div></div></div></main>
+export default function Admin() {
+  return (
+    <main className="page">
+      <div className="container narrow">
+        <label>ADMIN</label>
+        <h1>Store Dashboard</h1>
+
+        <p className="muted">
+          Admin authentication and live database controls should be enabled
+          before launch.
+        </p>
+
+        <div className="adminCards">
+          <div>
+            <b>Products</b>
+            <span>Add/edit products & stock</span>
+          </div>
+
+          <div>
+            <b>Orders</b>
+            <span>View and update order status</span>
+          </div>
+
+          <div>
+            <b>Coupons</b>
+            <span>Create discount codes</span>
+          </div>
+
+          <div>
+            <b>Customers</b>
+            <span>Customer and order history</span>
+          </div>
+        </div>
+      </div>
+    </main>
+  );
+}
